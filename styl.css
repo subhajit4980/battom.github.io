@@ -1,0 +1,24 @@
+div.btn{
+    margin: 100px;
+    background-color: rgb(0, 61, 3);
+    color: white;
+    font-size: 14pt;
+    padding: 109px;
+    width: 200px;
+    border-radius: 90px;
+    box-shadow: gray 10px 10px 10px;
+    transition: 0.5s;
+    position:absolute;
+    top: 50px;
+    left:30%;
+}
+div.btn:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: gray 20px 20px 20px;
+    transition: 0.5s;
+}
+div.btn:active{
+    transform: translate(5px,5px);
+    box-shadow: gray 5px 5px 5px ;
+    transition: transform 0.001s, box-shadow 0.6s;
+}
